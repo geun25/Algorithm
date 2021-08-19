@@ -6,6 +6,7 @@
 using namespace std;
 
 int n, inDegree[MAX], time[MAX], result[MAX];
+vector<int> a[MAX];
 
 void topologySort()
 {
@@ -37,11 +38,11 @@ void topologySort()
 		}
 	}
 }
+
 int main(void)
 {
-	int m;
 	scanf_s("%d ", &n);// 정점의 개수, 간선의 개수 입력받음
-	for (int i = 0; i < n; i++)
+	for (int i = 1; i <= n; i++)
 	{
 		scanf_s("%d", &time[i]);
 		while (1)

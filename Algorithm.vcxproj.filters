@@ -13,109 +13,133 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\AlgoJobs">
+      <UniqueIdentifier>{ed0e3697-7f70-4fff-bfe5-0a7c2befdbd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BOJ">
+      <UniqueIdentifier>{b900e3c3-e5e2-43e9-b380-35ff75cc38cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DongBinNa">
+      <UniqueIdentifier>{6301d2d1-d49c-41d0-b55f-3903d1db346e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SelectionSort.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="BubbleSort.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="InsertionSort.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="QuickSort.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ex1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ex2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="MergeSort.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="STL sort().cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="HeapSort.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CountingSort.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ex3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ex4.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Stack.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Queue.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="BFS.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="DFS.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="UnionFind.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Kruskal.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Traversal.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Dynamic.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Tiling.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Tiling2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Tiling3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="PrimeNumber.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Dijkstra.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Dijkstra++.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="FloydWarshall.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Topology.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="StronglyConnected.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="NetworkFlow.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="BF.cpp">
+      <Filter>소스 파일\AlgoJobs</Filter>
     </ClCompile>
     <ClCompile Include="BAEKJOON.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
-    <ClCompile Include="TopologyEX1.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="BFS.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="CountingSort.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra++.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="Dynamic.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="ex1.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="ex2.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="ex3.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="ex4.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="FloydWarshall.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSort.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertionSort.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="Kruskal.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkFlow.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimeNumber.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionSort.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="STL sort().cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="StronglyConnected.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiling.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiling2.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiling3.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="Topology.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
     </ClCompile>
     <ClCompile Include="TopologyEX2.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\DongBinNa</Filter>
     </ClCompile>
-    <ClCompile Include="AlgoJobs.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Traversal.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionFind.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="Select.cpp">
+      <Filter>소스 파일\AlgoJobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Insert.cpp">
+      <Filter>소스 파일\AlgoJobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble.cpp">
+      <Filter>소스 파일\AlgoJobs</Filter>
+    </ClCompile>
+    <ClCompile Include="TopologyEX1.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="TopologyEX3.cpp">
+      <Filter>소스 파일\DongBinNa</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
